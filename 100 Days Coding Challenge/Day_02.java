@@ -12,7 +12,10 @@ public class Day_02 {
         int[] dp = new int[arr.length];
         Arrays.fill(dp, -1);
 
-        return recursive(0, arr, k, dp);
+        int sum = recursive(0, arr, k, dp);
+        System.out.println(Arrays.toString(dp));
+
+        return sum;
     }
 
     public static int recursive(int index, int[] arr, int k, int dp[]) {
