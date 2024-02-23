@@ -1,6 +1,27 @@
 import java.util.*;
 
 public class Day_22 {
+
+    static class Pair {
+        int first;
+        int second;
+
+        public Pair(int first, int second) {
+            this.first = first;
+            this.second = second;
+        }
+    }
+
+    static class Tuple {
+        int first, second, third;
+
+        Tuple(int first, int second, int third) {
+            this.first = first;
+            this.second = second;
+            this.third = third;
+        }
+    }
+
     public static int findCheapestPrice(int n, int[][] flights, int src, int dst, int K) {
         ArrayList<ArrayList<Pair>> adj = new ArrayList<>();
         for (int i = 0; i < n; i++) {
@@ -52,25 +73,5 @@ public class Day_22 {
 
         int cheapestPrice = findCheapestPrice(n, flights, src, dst, k);
         System.out.println("Cheapest price: " + cheapestPrice);
-    }
-}
-
-class Pair {
-    int first;
-    int second;
-
-    public Pair(int first, int second) {
-        this.first = first;
-        this.second = second;
-    }
-}
-
-class Tuple {
-    int first, second, third;
-
-    Tuple(int first, int second, int third) {
-        this.first = first;
-        this.second = second;
-        this.third = third;
     }
 }
