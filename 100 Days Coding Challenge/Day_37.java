@@ -18,7 +18,7 @@ public class Day_37 {
     }
 
     public static void main(String[] args) {
-        int[] nums1 = { 1, 2, 3, 6 }, nums2 = { 2, 3, 4, 5 };
+        int[] nums1 = { 1, 2, 3, 7 }, nums2 = { 2, 3, 4, 5 };
         System.out.println(getCommon(nums1, nums2));
     }
 }
