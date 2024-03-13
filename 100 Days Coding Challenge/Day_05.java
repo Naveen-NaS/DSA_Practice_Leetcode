@@ -1,8 +1,11 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+// Problem No : 49 "Group Anagrams"
+
+/* Aim :- Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+    An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, t
+    ypically using all the original letters exactly once. 
+*/
+
+import java.util.*;
 
 public class Day_05 {
 
