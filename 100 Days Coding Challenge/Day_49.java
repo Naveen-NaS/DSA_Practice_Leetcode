@@ -65,7 +65,7 @@ public class Day_49 {
         list.displayList();
 
         list.head = reverseList(list.head);
-        System.out.println("List after swapping first and last nodes:");
+        System.out.println("List after reversing : ");
         list.displayList();
     }
 }
