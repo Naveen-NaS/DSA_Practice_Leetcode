@@ -1,12 +1,14 @@
+// Problem No : 19 "Remove Nth Node From End of List"
+
+/* Aim :- Given the head of a linked list, remove the nth node from the end of the list and return its head. */
+
 public class Day_31 {
 
     public static ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode temp = head;
-        ListNode tail = null;
         int size = 0;
 
         while (temp != null) {
-            tail = temp;
             temp = temp.next;
             size++;
         }
@@ -19,10 +21,6 @@ public class Day_31 {
 
         if (index == 0) {
             head = head.next;
-
-            if (head == null) {
-                tail = null;
-            }
         } else {
             ListNode current = head;
 
@@ -31,10 +29,6 @@ public class Day_31 {
             }
 
             current.next = current.next.next;
-
-            if (current.next == null) {
-                tail = current;
-            }
         }
 
         return head;

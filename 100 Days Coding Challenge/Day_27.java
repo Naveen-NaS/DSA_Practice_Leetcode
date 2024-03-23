@@ -1,5 +1,8 @@
-import java.util.LinkedList;
-import java.util.Queue;
+// Problem No : 513 "Find Bottom Left Tree Value"
+
+/* Aim :- Given the root of a binary tree, return the leftmost value in the last row of the tree. */
+
+import java.util.*;
 
 public class Day_27 {
 
@@ -8,18 +11,10 @@ public class Day_27 {
         TreeNode left;
         TreeNode right;
 
-        TreeNode() {
-        }
-
         TreeNode(int val) {
             this.val = val;
         }
 
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
     }
 
     public TreeNode tmp;

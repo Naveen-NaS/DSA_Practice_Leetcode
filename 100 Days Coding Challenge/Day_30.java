@@ -1,3 +1,9 @@
+// Problem No : 977 "Squares of a Sorted Array"
+
+/* Aim :- Given an integer array nums sorted in non-decreasing order, 
+    return an array of the squares of each number sorted in non-decreasing order. 
+*/
+
 public class Day_30 {
 
     public static int[] sortedSquares(int[] nums) {
