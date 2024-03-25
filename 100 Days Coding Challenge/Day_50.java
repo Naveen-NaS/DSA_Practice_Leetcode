@@ -1,3 +1,7 @@
+// Problem No : 234 "Palindrome Linked List"
+
+/* Aim :- Given the head of a singly linked list, return true if it is a palindrome or false otherwise. */
+
 public class Day_50 {
     static class ListNode {
         int data;
