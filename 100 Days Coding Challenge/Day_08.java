@@ -49,7 +49,7 @@ public class Day_08 {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 1, 5, 2, 7, 9, 3, 4, 5 };
+        int[] nums = { 1, 5, 2, 7, 9, 6, 3, 4, 5 };
         System.out.println(largestDivisibleSubset(nums));
     }
 }
