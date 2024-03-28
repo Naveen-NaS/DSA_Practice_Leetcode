@@ -19,7 +19,7 @@ public class Day_04 {
     }
 
     public static void main(String[] args) {
-        String s = "naveensharma";
+        String s = "naveensharmaji";
         System.out.println(firstUniqChar(s));
     }
 }
