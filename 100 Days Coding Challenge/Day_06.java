@@ -40,7 +40,7 @@ public class Day_06 {
     }
 
     public static void main(String[] args) {
-        String s = "eersteewrt3334424";
+        String s = "eersteewrt334424";
         System.out.println(frequencySort(s));
     }
 }
