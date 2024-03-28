@@ -47,7 +47,7 @@ public class Day_02 {
     }
 
     public static void main(String[] args) {
-        int nums[] = { 1, 4, 1, 5, 7, 3, 6, 1, 9, 9, 3 };
+        int nums[] = { 1, 4, 1, 5, 7, 3, 7, 1, 9, 9, 3 };
         int k = 4;
         System.out.println(maxSumAfterPartitioning(nums, k));
     }
