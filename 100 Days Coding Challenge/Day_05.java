@@ -29,7 +29,7 @@ public class Day_05 {
     }
 
     public static void main(String[] args) {
-        String[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
-        System.out.println(groupAnagrams(strs));
+        String[] strings = { "eat", "tea", "tan", "ate", "nat", "bat" };
+        System.out.println(groupAnagrams(strings));
     }
 }
