@@ -56,7 +56,7 @@ public class Day_10 {
     }
 
     public static void main(String[] args) {
-        int[][] grid = { { 3, 1, 1 }, { 2, 5, 1 }, { 1, 5, 5 }, { 2, 1, 1 } };
+        int[][] grid = { { 3, 1, 1 }, { 2, 5, 3 }, { 1, 5, 5 }, { 2, 1, 1 } };
         System.out.println(cherryPickup(grid));
     }
 }
