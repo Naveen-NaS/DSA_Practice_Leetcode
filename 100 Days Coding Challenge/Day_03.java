@@ -59,7 +59,7 @@ public class Day_03 {
     }
 
     public static void main(String[] args) {
-        String s = "ADOBECODEBANC";
+        String s = "ADOBECODEBANCA";
         String t = "ABC";
 
         System.out.println(minWindow(s, t));
