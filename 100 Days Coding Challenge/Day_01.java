@@ -35,7 +35,7 @@ public class Day_01 {
     }
 
     public static void main(String[] args) {
-        int low = 1000, 
+        int low = 1000;
         int high = 13000;
         System.out.println(sequentialDigits(low, high));
     }
