@@ -26,6 +26,6 @@ public class Day_07 {
     }
 
     public static void main(String[] args) {
-        System.out.println(numSquares(12));
+        System.out.println(numSquares(11));
     }
 }
