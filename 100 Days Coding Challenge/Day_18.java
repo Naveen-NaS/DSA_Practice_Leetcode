@@ -15,6 +15,6 @@ public class Day_18 {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPowerOfTwo(16));
+        System.out.println(isPowerOfTwo(32));
     }
 }
