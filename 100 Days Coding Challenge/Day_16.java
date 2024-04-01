@@ -34,7 +34,7 @@ public class Day_16 {
     }
 
     public static void main(String[] args) {
-        int[] heights = { 4, 12, 2, 7, 3, 18, 20, 3, 19 };
+        int[] heights = { 4, 12, 2, 7, 3, 18, 20, 5, 19 };
         System.out.println(furthestBuilding(heights, 10, 2));
     }
 }
