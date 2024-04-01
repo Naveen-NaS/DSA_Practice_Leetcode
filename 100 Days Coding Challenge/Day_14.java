@@ -36,7 +36,7 @@ public class Day_14 {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 1, 12, 1, 2, 5, 50, 3 };
+        int[] nums = { 1, 12, 1, 2, 5, 50, 3, 5 };
         System.out.println(largestPerimeter(nums));
     }
 }
