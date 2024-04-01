@@ -19,7 +19,7 @@ public class Day_20 {
     }
 
     public static void main(String[] args) {
-        int left = 1, right = 2147483647;
+        int left = 2, right = 2147483647;
         System.out.println(rangeBitwiseAnd(left, right));
     }
 }
