@@ -73,7 +73,7 @@ public class Day_28 {
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(6);
         root.right.left = new TreeNode(5);
-        root.right.right = new TreeNode(7);
+        root.right.right = new TreeNode(8);
 
         // Create an instance of the Day_28 class
         Day_28 day28 = new Day_28();
