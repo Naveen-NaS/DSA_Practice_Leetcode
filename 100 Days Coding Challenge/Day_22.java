@@ -79,9 +79,9 @@ public class Day_22 {
     public static void main(String[] args) {
         int n = 4;
         int[][] flights = { { 0, 1, 100 }, { 1, 2, 100 }, { 2, 0, 100 }, { 1, 3, 600 }, { 2, 3, 200 } };
-        int src = 0, dst = 3, k = 1;
+        int source = 0, dst = 3, k = 1;
 
-        int cheapestPrice = findCheapestPrice(n, flights, src, dst, k);
+        int cheapestPrice = findCheapestPrice(n, flights, source, dst, k);
         System.out.println("Cheapest price: " + cheapestPrice);
     }
 }
