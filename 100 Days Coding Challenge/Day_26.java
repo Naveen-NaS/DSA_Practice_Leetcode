@@ -52,7 +52,7 @@ public class Day_26 {
     public static void main(String[] args) {
         TreeNode p = new TreeNode(1);
         p.left = new TreeNode(2);
-        p.right = new TreeNode(3);
+        p.right = new TreeNode(4);
 
         System.out.println(calculateDepth(p));
     }
