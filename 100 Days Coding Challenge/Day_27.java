@@ -41,11 +41,11 @@ public class Day_27 {
         /*
          * 2
          * / \
-         * 1 3
+         * 1 4
          */
         TreeNode root = solution.new TreeNode(2);
         root.left = solution.new TreeNode(1);
-        root.right = solution.new TreeNode(3);
+        root.right = solution.new TreeNode(4);
 
         System.out.println("Leftmost value in the last row: " + solution.findBottomLeftValue(root)); // Output: 1
     }
