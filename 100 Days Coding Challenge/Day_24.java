@@ -94,7 +94,7 @@ public class Day_24 {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 4, 3, 12, 8 };
+        int[] nums = { 4, 3, 12, 8, 5 };
         System.out.println(canTraverseAllPairs(nums));
     }
 }
