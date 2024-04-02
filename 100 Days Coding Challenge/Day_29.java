@@ -40,7 +40,7 @@ public class Day_29 {
     }
 
     public static void main(String[] args) {
-        String test = "100110010";
+        String test = "1001100100";
         System.out.println(maximumOddBinaryNumber(test));
     }
 }
