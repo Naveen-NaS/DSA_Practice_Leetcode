@@ -38,7 +38,7 @@ public class Day_30 {
     }
 
     public static void main(String[] args) {
-        int[] arr = { -1, -2, 0, 5, 4, -8, 7, 9, 12 };
+        int[] arr = { -1, -2, 0, 5, 4, -8, 7, -9, 12 };
         printArr(sortedSquares(arr));
     }
 }
