@@ -82,7 +82,7 @@ public class Day_31 {
         list.addNode(3);
         list.addNode(1);
         list.addNode(9);
-        list.addNode(5);
+        list.addNode(6);
 
         System.out.println("Before Removal : ");
         list.displayList();
