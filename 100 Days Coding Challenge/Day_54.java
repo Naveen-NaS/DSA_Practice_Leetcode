@@ -28,7 +28,7 @@ public class Day_54 {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 3, 4, -1, 1 };
+        int[] nums = { 3, 4, -1, 2 };
         System.out.println(firstMissingPositive(nums));
     }
 }
