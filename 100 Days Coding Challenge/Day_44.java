@@ -32,7 +32,7 @@ public class Day_44 {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 0, 1, 0 };
+        int[] nums = { 0, 1, 0, 1 };
         System.out.println(findMaxLength(nums));
     }
 }
