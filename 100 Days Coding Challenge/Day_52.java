@@ -29,7 +29,7 @@ public class Day_52 {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 3, 1, 3, 4, 2 };
+        int[] nums = { 3, 1, 3, 4, 5 };
         System.out.println(findDuplicate(nums));
     }
 }
