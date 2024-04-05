@@ -26,7 +26,7 @@ public class Day_55 {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 10, 5, 2, 6 };
+        int[] nums = { 10, 5, 2, 8 };
         int k = 100;
         System.out.println(numSubarrayProductLessThanK(nums, k));
     }
