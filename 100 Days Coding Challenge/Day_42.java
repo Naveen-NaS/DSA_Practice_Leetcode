@@ -24,7 +24,7 @@ public class Day_42 {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 1, 0, 1, 0, 1 };
+        int[] nums = { 1, 0, 1, 0, 1, 0 };
         int goal = 2;
         System.out.println(numSubarraysWithSum(nums, goal));
     }
