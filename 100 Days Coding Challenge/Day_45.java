@@ -51,7 +51,7 @@ public class Day_45 {
     }
 
     public static void main(String[] args) {
-        int[][] intervals = { { 1, 2 }, { 3, 5 }, { 6, 7 }, { 8, 10 }, { 12, 16 } };
+        int[][] intervals = { { 1, 2 }, { 3, 4 }, { 6, 7 }, { 8, 10 }, { 12, 16 } };
         int[] newInterval = { 4, 8 };
 
         print2DArray(insert(intervals, newInterval));
