@@ -37,7 +37,7 @@ public class Day_47 {
     }
 
     public static void main(String[] args) {
-        char[] tasks = { 'A', 'A', 'A', 'B', 'B', 'B' };
+        char[] tasks = { 'A', 'A', 'A', 'c', 'B', 'B' };
         int n = 2;
         System.out.println(leastInterval(tasks, n));
     }
