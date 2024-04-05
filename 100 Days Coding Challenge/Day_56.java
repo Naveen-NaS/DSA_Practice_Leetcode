@@ -44,7 +44,7 @@ public class Day_56 {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 1, 2, 3, 1, 2, 3, 1, 2 };
+        int[] nums = { 1, 2, 3, 1, 2, 4, 1, 2 };
         int k = 2;
         System.out.println("Output: " + maxSubarrayLength(nums, k));
     }
