@@ -91,7 +91,7 @@ public class Day_51 {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
 
-        for (int i = 1; i <= 6; i++) {
+        for (int i = 1; i <= 5; i++) {
             list.addNode(i);
         }
 
