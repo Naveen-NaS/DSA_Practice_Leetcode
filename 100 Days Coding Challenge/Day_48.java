@@ -73,7 +73,7 @@ public class Day_48 {
         LinkedList list1 = new LinkedList();
         LinkedList list2 = new LinkedList();
 
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 6; i++) {
             list1.addNode(i);
             list2.addNode(2 * i);
         }
