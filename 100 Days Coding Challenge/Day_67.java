@@ -40,7 +40,7 @@ public class Day_67 {
     }
 
     public static void main(String[] args) {
-        int[] students = { 1, 1, 1, 0, 0, 1 }, sandwiches = { 1, 0, 0, 0, 1, 1 };
+        int[] students = { 1, 1, 0, 0 }, sandwiches = { 0, 1, 0, 1 };
         System.out.println(countStudents(students, sandwiches));
     }
 }
