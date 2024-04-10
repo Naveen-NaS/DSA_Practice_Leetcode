@@ -19,8 +19,18 @@ public class Day_70 {
         return result;
     }
 
-    public static void main(String[] args) {
+    public static void printArray(int[] arr) {
+        int len = arr.length;
+        System.out.print("[ ");
+        for (int i = 0; i < len; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println(" ]");
+    }
 
+    public static void main(String[] args) {
+        int[] deck = { 17, 13, 11, 2, 3, 5, 7 };
+        printArray(deckRevealedIncreasing(deck));
     }
 
 }
