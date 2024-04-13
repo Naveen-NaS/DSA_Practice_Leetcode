@@ -45,7 +45,7 @@ public class Day_70 {
     }
 
     public static void main(String[] args) {
-        int[] deck = { 17, 13, 11, 2, 3, 5, 7 };
+        int[] deck = { 1, 13, 11, 2, 3, 5, 7 };
         printArray(deckRevealedIncreasing(deck));
     }
 
